@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoalQuiz App ⚽</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚽ GoalQuiz</h1>
+    <p class="tagline">Test your football trivia knowledge!</p>
+
+    <section id="leaderboard-section">
+      <h2>🏆 Leaderboard</h2>
+      <table id="leaderboard">
+        <thead>
+          <tr><th>Rank</th><th>Name</th><th>Score</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section id="player-section">
+      <input type="text" id="player-name" placeholder="Enter your name">
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <section id="quiz-section" style="display:none;">
+      <!-- Quiz questions will be dynamically inserted here -->
+       <div id="question box">
+        <div id="timer" class="timer">⏱️ 15s</div>
+        <p id="current-score">Score: 0</p>
+        <h2 id="question-text">Question Text</h2>
+        <div id="options-container"></div>
+        <button id="next-btn" style="display: none;">Next Question</button>
+       </div>
+    </section>
+
+    <section id="stats-section" style="display:none;">
+      <h3 id="best-score">Your Best Score: 0</h3>
+      <ul id="recent-scores"></ul>
+    </section>
+  </div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>

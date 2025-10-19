@@ -1,0 +1,150 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #006400, #228b22);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.tagline {
+  margin-bottom: 2rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+#leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+#leaderboard th, #leaderboard td {
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+#leaderboard th {
+  color: #ffd700;
+}
+
+#player-section {
+  margin: 1rem 0;
+}
+
+#player-name {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+}
+
+#start-btn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#start-btn:hover {
+  background: #ffea00;
+  transform: scale(1.05);
+}
+
+#stats-section {
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#quiz-section {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+#question-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.option-btn {
+  display: block;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin: 0.4rem 0;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 100%;
+  text-align: left;
+}
+
+.option-btn:hover {
+  background: #eee;
+}
+
+.option-btn.correct {
+  background: #4caf50;
+  color: white;
+}
+
+.option-btn.wrong {
+  background: #f44336;
+  color: white;
+}
+
+#next-btn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#next-btn:hover {
+  background: #ffea00;
+}
+
+.action-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.action-btn:hover {
+  background-color: #218838;
+}
