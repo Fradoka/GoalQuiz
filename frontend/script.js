@@ -1,5 +1,5 @@
 
-const backendURL = 'http://localhost:3000/api/leaderboard';
+const backendURL = 'https://fradoka-goalquiz-backend.hosting.codeyourfuture.io/api/leaderboard';
 
   const bestScoreElem = document.getElementById('best-score');
   const recentList = document.getElementById('recent-scores');
